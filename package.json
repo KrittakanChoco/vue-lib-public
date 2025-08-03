@@ -1,12 +1,31 @@
 {
-  "name": "vue-lib-public",
-  "private": true,
-  "version": "0.0.10",
+  "name": "@krittakan/vue-lib-public",
+  "version": "0.0.16",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./components": {
+      "import": "./dist/components/index.js",
+      "types": "./dist/components/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./style.css": "./dist/vue-lib-public.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "npm:login": "npm login",
+    "npm:publish": "npm publish --access=public"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

@@ -333,6 +333,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@krittakan/vue-lib-public@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@krittakan/vue-lib-public@workspace:."
+  dependencies:
+    "@tailwindcss/vite": "npm:^4.1.11"
+    "@types/node": "npm:^24.1.0"
+    "@vitejs/plugin-vue": "npm:^6.0.0"
+    "@vue/tsconfig": "npm:^0.7.0"
+    tailwindcss: "npm:^4.1.11"
+    typescript: "npm:~5.8.3"
+    vite: "npm:^7.0.4"
+    vite-plugin-dts: "npm:^4.5.4"
+    vue: "npm:^3.5.17"
+    vue-tsc: "npm:^3.0.5"
+  languageName: unknown
+  linkType: soft
+
 "@microsoft/api-extractor-model@npm:7.30.7":
   version: 7.30.7
   resolution: "@microsoft/api-extractor-model@npm:7.30.7"
@@ -2771,23 +2788,6 @@ __metadata:
   checksum: 10c0/5f6c9c10fd9b1664d71fab4e9fbbae6be93c7f75bb3a1d9d74399a88ab8649e99691223fd7cef4644376cac6e94fa2c086d802521b9a8e31c5af3e60f0f35624
   languageName: node
   linkType: hard
-
-"vue-lib-public@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "vue-lib-public@workspace:."
-  dependencies:
-    "@tailwindcss/vite": "npm:^4.1.11"
-    "@types/node": "npm:^24.1.0"
-    "@vitejs/plugin-vue": "npm:^6.0.0"
-    "@vue/tsconfig": "npm:^0.7.0"
-    tailwindcss: "npm:^4.1.11"
-    typescript: "npm:~5.8.3"
-    vite: "npm:^7.0.4"
-    vite-plugin-dts: "npm:^4.5.4"
-    vue: "npm:^3.5.17"
-    vue-tsc: "npm:^3.0.5"
-  languageName: unknown
-  linkType: soft
 
 "vue-tsc@npm:^3.0.5":
   version: 3.0.5
