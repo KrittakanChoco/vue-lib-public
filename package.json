@@ -1,6 +1,6 @@
 {
   "name": "@KrittakanChoco/vue-lib-public",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -30,7 +30,7 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "github:publish": "yarn npm publish --access public"
+    "github:publish": "yarn npm publish"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
